@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Наталья Волчкова](https://up.htmlacademy.ru/adaptive/20/user/1043611).
-* Наставник: `Неизвестно`.
+* Наставник: `Макс Кравченко`.
 
 ---
 
