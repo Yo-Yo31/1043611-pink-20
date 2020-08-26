@@ -14,7 +14,7 @@
   				<div class="visually-hidden">Закрыть меню</div>
   			</button>
   			<ul class="main-nav__list site-list">
-  				<li class="site-list__item--active">
+  				<li class="site-list__item">
   					<a href="#">Главная</a>
   				</li>
   				<li class="site-list__item">
@@ -30,23 +30,104 @@
   		</nav>
   	</header>
   	<main class="page-main">
-  		<div class="competition">
-  			<p class="competition__text competition-text">Конкурс на самое</p>
-  			<p class="competition__text competition-text">безбашенное</p>
-  			<p class="competition__text competition-text">путешествие с Пинк</p>
-  		</div>
+  		<h2 class="visually-hidden">Конкурс</h2>
+  		<p class="competition">Конкурс на самое безбашенное путешествие с Пинк</p>
   		<div class="stories">
   			<div class="stories__text">
-	  			<p class="stories-text">Поделитесь своей историей и получите</p>
-	  			<p class="stories-text">шанс выиграть ценный приз - 1000</p>
-	  			<p class="stories-text">миль на вашу бонусную карту!</p>
-	  		</div>
+  				<p>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+  			</div>
   		</div>
   		<div class="form">
-  			<form action="https://echo.htmlacademy.ru">
-  				<input type="" name="">
+  			<h3 class="visually-hidden">Форма для конкурса</h3>
+  			<form class="form__info personal-info" action="https://echo.htmlacademy.ru">
+  				<p class="personal-info__text">Фамилия:</p>
+	  			<input class="personal-info__style" type="text" name="second name" placeholder="Укажите фамилию *" required>
+	  			<p class="personal-info__text">Имя:</p>
+	  			<input class="personal-info__style" type="text" name="name" placeholder="Введите ваше имя *" required>
+	  			<p class="personal-info__text">Отчество:</p>
+	  			<input class="personal-info__style" type="text" name="patronymic" placeholder="Ну и отчество тоже *" required>
   			</form>
+  			<form class="form__achievements form-achievements">
+  				<h3 class="form-achievements__title">Ваши безбашенные достижения в путешествиях</h3>
+  				<div class="form-achievements__checkbox form-achievements__checkbox--active">
+		  			<input type="checkbox" id="self" name="self" checked>
+		  			<label for="self">Сделал селфи с акулой</label>
+	  			</div>
+	  			<div class="form-achievements__checkbox form-achievements__checkbox--active">
+		  			<input type="checkbox" id="beach" name="beach" checked>
+		  			<label for="beach">Обгорел на пляжей</label>
+	  			</div>
+	  			<div class="form-achievements__checkbox">
+		  			<input type="checkbox" id="norris" name="norris">
+		  			<label for="norris">Видел Чака Норриса</label>
+	  			</div>
+	  			<div class="form-achievements__checkbox">
+		  			<input type="checkbox" id="souvenir" name="souvenir">
+		  			<label for="souvenir">Накупил сувениров</label>
+	  			</div>
+	  			<div class="form-achievements__checkbox achievements__checkbox--active">
+	  				<input type="checkbox" id="tower" name="tower" checked>
+		  			<label for="tower">Удержал башню</label>
+	  			</div>
+	  			<div class="form-achievements__checkbox">
+	  				<input type="checkbox" id="hotel" name="hotel">
+		  			<label for="hotel">Разгромил отель</label>
+	  			</div>
+  			</form>
+  			<form class="form__telephone form-telephone">
+  				<p class="form-telephone__text">Номер телефона</p>
+	  			<input class="form-telephone__style" type="text" name="second name" placeholder="Номер пожалуйста" required>
+	  			<p class="form-telephone__text">Адрес почты</p>
+	  			<input class="form-telephone__style" type="text" name="name" placeholder="Введите почту *" required>
+  			</form>
+  			<form class="form__applications form-applications">
+  				<p class="form-applications__text">С каким приложением вы путешествовали?</p>
+  				<div class="form-applications__radio">
+	  				<input id="ios" type="radio" name="application" checked>
+	  				<label for="ios">Pink для iOS</label>
+  				<div>
+  				<div class="form-applications__radio">
+	  				<input id="android" type="radio" name="application">
+	  				<label for="android">Pink на Android</label>
+  				</div>
+  				<div class="form-applications__radio">
+	  				<input id="windows" type="radio" name="application">
+	  				<label for="windows">Windows Phone</label>
+  				</div>
+  			</form>
+  			<form class="form__emotion form-emotion">
+  				<p class="form-emotion__text">Опишите свои эмоции</p>
+  				<input class="form-emotion__style" type="text" name="emotion" placeholder="Можно прям в красках, не стесняясь в выражениях" required>
+  			</form>
+  			<div class="form__button form-button">
+	  			<button class="form-button__send button" type="submit">Отправить форму</button>
+	  		</div>
+	  		<p class="form__text required"><span class="required-red">*</span> - обязательные поля</p>
   		</div>
   	</main>
+  	<footer class="page-footer">
+  		<h2 class="visually-hidden">Наши социальные сети</h2>
+ 		<div class="footer__images logo-images">
+ 			<a class="footer__logo">
+	 			<img class="logo" src="img/glasses.svg" width="59px" height="40px">
+	 			<img class="logo" src="img/logo-mobile.svg" alt="Мобильный логотип" width="74px" height="23px">
+ 			</a>
+ 		</div>
+ 		<ul class="footer__link social">
+ 			<li class="footer__item">
+ 				<a class="footer__link footer__link--twitter" href="#"></a>
+ 			</li>
+ 			<li class="footer__item">
+ 				<a class="footer__link footer__link--facebook" href="#"></a>
+ 			</li>
+ 			<li class="footer__item">
+ 				<a class="footer__link footer__link--youtube" href="#"></a>
+ 			</li>
+ 		</ul>
+ 		<div class="footer__copyrite copyrite">
+ 			<p class="copyrite__text">Разработано</p>
+ 			<img src="img/logo-academy.svg" width="27px" height="34px">
+ 		</div>
+  	</footer>
     </body>
 </html>

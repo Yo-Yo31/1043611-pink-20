@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+	<head>
+	    <meta charset="utf-8">
+	    <title>HTML Academy: Пинк</title>
+    </head>
+    <body class="page__body">
+    	<header class="page-header">
+  		<div class="page-header__top">
+  			<img src="img/logo-mobile.svg" alt="Мобильный логотип" width="74px" height="23px">
+  		</div>
+  		<nav class="main-nav">
+  			<button class="main-nav--toggle" type="button">
+  				<div class="visually-hidden">Закрыть меню</div>
+  			</button>
+  			<ul class="main-nav__list site-list">
+  				<li class="site-list__item">
+  					<a href="#">Главная</a>
+  				</li>
+  				<li class="site-list__item site-list__item--active">
+  					<p>Фотографии</p>
+  				</li>
+  				<li class="site-list__item">
+  					<a href="">Конкурс</a>
+  				</li>
+  				<li class="site-list__item">
+  					<a href="">Html Academy</a>
+  				</li>
+  			</ul>
+  		</nav>
+  	</header>
+  	<main class="page-main">
+  		<h2 class="visually-hidden">Фотографии</h2>
+  		<div class="photos">
+  			<p class="photos__text photos-text">Фотографии пользователей</p>
+  		</div>
+  		<div class="users-photos">
+	  		<p class="users-photos__text text-top">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+  			<div class="photos__blok photos__blok--main">
+  				<a href="#">
+	  				<div class="photos__panorama">
+	  					<p class="panorama-style">Панорама дня</p>
+	  				</div>
+	  			</a>
+  				<div class="photos__username">
+  					<p class="username">Анна</p>
+  					<p class="usertime">(5 минут назад)</p>
+  				</div>
+  				<p class="photos__description photos-description">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+  				<p class="photos__like photos-like">Нравится: 215</p>
+  			</div>
+  			<div class="photos__blok">
+  				<a href="#">
+	  				<img class="photos__image photo-image" src="img/levonphoto.jpg" alt="Изображение автомобиля" width="280px" height="180px">
+	  			</a>
+	  				<div class="photos__username">
+  					<p class="username">Левон</p>
+  					<p class="usertime">(5 часов назад)</p>
+  				</div>
+  				<p class="photos__description photos-description">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+  				<p class="photos__like photos-like">Нравится: 356</p>
+  			</div>
+  			<div class="photos__blok">
+  				<a href="#"><img class="photos__image photo-image" src="img/antonphoto.jpg" alt="Изображение духовых инструментов" width="280px" height="180px"></a>
+  				<div class="photos__username">
+  					<p class="username">Антон</p>
+  					<p class="usertime">(12 часов назад)</p>
+  				</div>
+  				<p class="photos__description photos-description">Соседи будут рады!</p>
+  				<p class="photos__like photos-like">Нравится: 666</p>
+  			</div>
+  			<div class="photos__blok">
+  				<a href="#"><img class="photos__image photo-image" src="img/borisphoto.jpg" alt="Изображение металлоконструкций" width="280px" height="180px"></a>
+  				<div class="photos__username">
+  					<p class="username">Борис</p>
+  					<p class="usertime">(20 часов назад)</p>
+  				</div>
+  				<p class="photos__description photos-description">Здесь могла быть ваша цитата о высоком и вечном.</p>
+  				<p class="photos__like photos-like">Нравится: 215</p>
+  			</div>
+  			<div class="photos__blok">
+  				<a href="#"><img class="photos__image photo-image" src="img/sergeiphoto.jpg" alt="Кубанская бахча" width="280px" height="180px"></a>
+  				<div class="photos__username">
+  					<p class="username">Сергей</p>
+  					<p class="usertime">(25 часов назад)</p>
+  				</div>
+  				<p class="photos__description photos-description">Самая кубанская в мире!</p>
+  				<p class="photos__like photos-like">Нравится: 4</p>
+  			</div>
+  			<div class="photos__blok">
+  				<a href="#"><img class="photos__image photo-image" src="img/maxphoto.jpg" alt="Изображение ног сидящего человека" width="280px" height="180px"></a>
+  				<div class="photos__username">
+  					<p class="username">Максим</p>
+  					<p class="usertime">(40 часов назад)</p>
+  				</div>
+  				<p class="photos__description photos-description">Где снег-то?</p>
+  				<p class="photos__like photos-like">Нравится: 150</p>
+  			</div>
+  			<div class="photos__blok">
+  				<a href="#"><img class="photos__image photo-image" src="img/nadejdaphoto.jpg" alt="Крыло самолета" width="280px" height="180px"></a>
+  				<div class="photos__username">
+  					<p class="username">Надежда</p>
+  					<p class="usertime">(45 часов назад)</p>
+  				</div>
+  				<p class="photos__description photos-description">Где снег-то?</p>
+  				<p class="photos__like photos-like">Нравится: 2560</p>
+  			</div>
+  			<p class="users-photos__text text-bottom">Затмите их всех!<br>Выкладывайте все, что накопилось в<br>телефоне!</p>
+  		</div>
+  		<div class="photos-post">
+  			<h2 class="visually-hidden">Форма постинга</h2>
+  			<form class="photos-post__form"action="https://echo.htmlacademy.ru.stories">
+	  			<div class="photos-post__image">
+	  				<img src="img/winterroad.jpg" alt="Зимняя дорога" >
+	  			</div>
+	  			<ul class="photos-post__list">
+	  				<li class="photos-post__item photos-post__item--active">
+	  					<img src="img/point1.svg" alt="Бегунок настройки 1" width="44px" height="44px">
+	  				</li>
+	  				<li class="photos-post__item">
+	  					<img src="img/point2.svg" alt="Бегунок настройки 2" width="48px" height="43px">
+	  				</li>
+	  				<li class="photos-post__item">
+	  					<img src="img/point3.svg" alt="Бегунок настройки 3" width="32px" height="32px">
+	  				</li>
+	  			</ul>
+	  			<input class="photos-post__range-style" type="range" name="range">
+	  			<button class="photos-post__send button" type="submit">Запостить</button>
+	  			<button class="photos-post__cansel button" type="submit">Запостить</button>
+  			</form>
+  		</div>
+  	</main>
+  		<footer class="page-footer">
+  		<h2 class="visually-hidden">Наши социальные сети</h2>
+ 		<div class="footer__images logo-images">
+ 			<a class="footer__logo">
+	 			<img class="logo" src="img/glasses.svg" width="59px" height="40px">
+	 			<img class="logo" src="img/logo-mobile.svg" alt="Мобильный логотип" width="74px" height="23px">
+ 			</a>
+ 		</div>
+ 		<ul class="footer__link social">
+ 			<li class="footer__item">
+ 				<a class="footer__link footer__link--twitter" href="#"></a>
+ 			</li>
+ 			<li class="footer__item">
+ 				<a class="footer__link footer__link--facebook" href="#"></a>
+ 			</li>
+ 			<li class="footer__item">
+ 				<a class="footer__link footer__link--youtube" href="#"></a>
+ 			</li>
+ 		</ul>
+ 		<div class="footer__copyrite copyrite">
+ 			<p class="copyrite__text">Разработано</p>
+ 			<img src="img/logo-academy.svg" width="27px" height="34px">
+ 		</div>
+  	</footer>
+    </body>
+</html>
